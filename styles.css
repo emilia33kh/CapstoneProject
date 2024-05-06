@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Full-width navbar styling */
+.navbar {
+    width: 100%;
+    background-color: #0178e4; /* Blue background */
+    color: white;
+    padding: 10px 0;
+}
+
+/* Remove padding and margin from the body to ensure full width */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make sure Streamlit containers take full width */
+.css-1d391kg {
+    padding: 0;
+    margin: 0;
+}
+
+/* Additional styles to ensure full-width elements */
+.stButton > button {
+    width: 100%;
+}
